@@ -1,0 +1,17 @@
+pe/edu/upc/customer/controller/CustomerRest.java
+ pe.edu.upc.customer.controller.CustomerRest
+pe/edu/upc/customer/service/impl/CustomerServiceImpl.java
+ pe.edu.upc.customer.service.impl.CustomerServiceImpl
+pe/edu/upc/customer/repository/CustomerRepository.java
+ pe.edu.upc.customer.repository.CustomerRepository
+pe/edu/upc/customer/service/CustomerService.java
+ pe.edu.upc.customer.service.CustomerService
+pe/edu/upc/customer/entity/Region.java
+ pe.edu.upc.customer.entity.Region
+pe/edu/upc/customer/CustomerServiceApplication.java
+ pe.edu.upc.customer.CustomerServiceApplication
+pe/edu/upc/customer/controller/ErrorMessage.java
+ pe.edu.upc.customer.controller.ErrorMessage
+ pe.edu.upc.customer.controller.ErrorMessage$ErrorMessageBuilder
+pe/edu/upc/customer/entity/Customer.java
+ pe.edu.upc.customer.entity.Customer

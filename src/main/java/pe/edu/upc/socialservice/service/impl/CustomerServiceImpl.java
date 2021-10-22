@@ -55,12 +55,12 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public Customer deleteCustomer(Customer customer) {
-        Customer customerDb = customerRepository.findById(customer.getId()).orElse(null);
+    public Customer deleteCustomer(Long id) {
+        Customer customerDb = customerRepository.findById(id).orElse(null);
         if (customerDb ==null){
             return  null;
         }
-        customer.setStatus("DELETED");
-        return customerRepository.save(customer);
+        customerDb.setStatus("DELETED");
+        return customerRepository.save(customerDb);
     }
 }

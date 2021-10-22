@@ -28,4 +28,7 @@ public class CollaboratorSchedule {
     @JsonIgnore
     private Collaborator collaborator;
 
+    @NotNull
+    @Column(length = 10, nullable = false)
+    private String status;
 }

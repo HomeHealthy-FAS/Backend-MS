@@ -39,4 +39,7 @@ public class Review {
     @Lob
     private String description;
 
+    @NotNull
+    @Column(length = 10, nullable = false)
+    private String status;
 }

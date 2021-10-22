@@ -1,14 +1,14 @@
 package pe.edu.upc.socialservice.service;
 
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import pe.edu.upc.socialservice.entity.CollaboratorSchedule;
 
+import java.util.List;
+
 @Service
 public interface CollaboratorScheduleService {
-    Page<CollaboratorSchedule> getAllCollaboratorSchedulesByCollaboratorId(Long collaboratorId, Pageable pageable);
+    List<CollaboratorSchedule> getAllCollaboratorSchedulesByCollaboratorId(Long collaboratorId, Pageable pageable);
 
     CollaboratorSchedule getCollaboratorScheduleByIdAndCollaboratorId(Long collaboratorId, Long id);
 
@@ -16,5 +16,5 @@ public interface CollaboratorScheduleService {
 
     // CollaboratorSchedule updateCollaboratorSchedule(Long collaboratorId, Long id, Session sessionDetails);
 
-    ResponseEntity<?> deleteCollaboratorSchedule(Long collaboratorId, Long id);
+    CollaboratorSchedule deleteCollaboratorSchedule(Long collaboratorId, Long id);
 }

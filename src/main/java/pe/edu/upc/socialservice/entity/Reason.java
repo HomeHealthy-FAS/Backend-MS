@@ -19,13 +19,7 @@ public class Reason {
     @Size(max = 50)
     private String description;
 
-    public Long getId() {
-        return id;
-    }
-
-    public Reason setId(Long id) {
-        this.id = id;
-        return this;
-    }
-
+    @NotNull
+    @Column(length = 10, nullable = false)
+    private String status;
 }

@@ -33,4 +33,7 @@ public class Complaint {
     @JsonIgnore
     private Reason reason;
 
+    @NotNull
+    @Column(length = 10, nullable = false)
+    private String status;
 }

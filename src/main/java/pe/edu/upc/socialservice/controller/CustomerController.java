@@ -97,7 +97,7 @@ public class CustomerController {
             log.error("Unable to delete. Customer with id {} not found.", id);
             return  ResponseEntity.notFound().build();
         }
-        customer = customerService.deleteCustomer(customer);
+        customer = customerService.deleteCustomer(id);
         return  ResponseEntity.ok(customer);
     }
 

@@ -1,16 +1,15 @@
 package pe.edu.upc.socialservice.service;
 
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import pe.edu.upc.socialservice.entity.Review;
 
+import java.util.List;
+
 @Service
 public interface ReviewService {
-    Page<Review> getAllReviews(Pageable pageable);
+    List<Review> getAllReviews();
     Review getReviewByCustomerAndCollaborator(Long customerId, Long collaboratorId);
     Review createReview(Long customerId, Long collaboratorId, Long scoreId, Review reviewRequest);
-    Review updateReview(Long customerId, Long collaboratorId, Long scoreId, Review reviewRequest);
-    ResponseEntity<?> deleteReview(Long customerId, Long collaboratorId);
+    Review updateReview(Long id, Review reviewRequest);
+    Review deleteReview(Long reviewId);
 }

@@ -17,4 +17,8 @@ public class Score {
 
     @NotNull
     private Long value;
+
+    @NotNull
+    @Column(length = 10, nullable = false)
+    private String status;
 }

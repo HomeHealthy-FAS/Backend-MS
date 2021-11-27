@@ -22,4 +22,9 @@ spring:
           predicates:
             - Path=/customers/**
             - Path=/collaborators/**
+        - id: session-service
+          uri: lb://session-service
+          predicates:
+            - Path=/sessions/**
+            
         

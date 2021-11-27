@@ -1,0 +1,26 @@
+pe/edu/upc/product/services/DietService.java
+ pe.edu.upc.product.services.DietService
+pe/edu/upc/product/entities/Routine.java
+ pe.edu.upc.product.entities.Routine
+pe/edu/upc/product/entities/Plan.java
+ pe.edu.upc.product.entities.Plan
+pe/edu/upc/product/repositories/PlanRepository.java
+ pe.edu.upc.product.repositories.PlanRepository
+pe/edu/upc/product/services/CrudService.java
+ pe.edu.upc.product.services.CrudService
+pe/edu/upc/product/repositories/RoutineRepository.java
+ pe.edu.upc.product.repositories.RoutineRepository
+pe/edu/upc/product/repositories/DietRepository.java
+ pe.edu.upc.product.repositories.DietRepository
+pe/edu/upc/product/ProductServiceApplication.java
+ pe.edu.upc.product.ProductServiceApplication
+pe/edu/upc/product/services/impls/RoutineServiceImpl.java
+ pe.edu.upc.product.services.impls.RoutineServiceImpl
+pe/edu/upc/product/services/impls/DietServiceImpl.java
+ pe.edu.upc.product.services.impls.DietServiceImpl
+pe/edu/upc/product/services/RoutineService.java
+ pe.edu.upc.product.services.RoutineService
+pe/edu/upc/product/entities/Diet.java
+ pe.edu.upc.product.entities.Diet
+pe/edu/upc/product/controllers/DietController.java
+ pe.edu.upc.product.controllers.DietController

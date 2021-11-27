@@ -17,4 +17,9 @@ spring:
           uri: lb://product-service
           predicates:
             - Path=/diets/**
+        - id: social-service
+          uri: lb://social-service
+          predicates:
+            - Path=/customers/**
+            - Path=/collaborators/**
         

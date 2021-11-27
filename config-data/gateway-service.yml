@@ -19,7 +19,7 @@ spring:
             - Path=/customers/**
             - Path=/collaborators/**
         - id: planning-service
-          uri: lb://planning-service
+          uri: lb://planningservice
           predicates:
             - Path=/diets/**
         

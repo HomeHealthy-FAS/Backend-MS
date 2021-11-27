@@ -13,11 +13,6 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: social-service
-          uri: lb://social-service
-          predicates:
-            - Path=/customers/**
-            - Path=/collaborators/**
         - id: product-service
           uri: lb://product-service
           predicates:

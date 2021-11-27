@@ -10,5 +10,4 @@ import java.util.Optional;
 @Repository
 public interface ScoreRepository extends JpaRepository<Score,Long> {
     Optional<Score> findScoreByValue(Long value);
-    Optional<Score> findScoreByName(String name);
 }
